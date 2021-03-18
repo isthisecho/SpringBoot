@@ -29,19 +29,47 @@ If you want to try it out locally you can just replace http link with http://loc
 
 1- For Windows Users :
 
-Adding New User : curl -X POST https://spring-boot-herokuu.herokuapp.com/User -H "Content-type:application/json" -d "{\"name\": \"John\", \"surname\": \"Cameron\",\"email\": \"johncameron@gmail.com\"}"  
+A) Getting All Of The Users: curl -X POST https://spring-boot-herokuu.herokuapp.com/User 
 
-Changing The Parameters Of User (Write the specific id to inside curly brackets) : curl -X PUT localhost:8080/User/{id} -H "Content-type:application/json" -d "{\"name\": \"Arthur\", \"surname\": \"Morgan\",\"email\": \"arthurmorgan@hotmail.com\"}" 
+![Screenshot_32](https://user-images.githubusercontent.com/60350565/111702662-ab232a80-884d-11eb-9ec0-ac55c2cb188b.png)
 
-Delete The User (Write the specific id to inside curly brackets) :
+
+B) Getting Specific Single User (Write the specific id to inside curly brackets) : curl -X POST https://spring-boot-herokuu.herokuapp.com/User/{id}
+
+![Screenshot_31](https://user-images.githubusercontent.com/60350565/111702675-b0807500-884d-11eb-8027-95720ccce302.png)
+
+
+C) Adding New User : curl -X POST https://spring-boot-herokuu.herokuapp.com/User -H "Content-type:application/json" -d "{\"name\": \"John\", \"surname\": \"Cameron\",\"email\": \"johncameron@gmail.com\"}"  
+
+![Screenshot_28](https://user-images.githubusercontent.com/60350565/111702756-d0b03400-884d-11eb-8b8e-8542cd9db258.png)
+
+
+D) Changing The Parameters Of User (Write the specific id to inside curly brackets) : curl -X PUT https://spring-boot-herokuu.herokuapp.com/User/{id} -H "Content-type:application/json" -d "{\"name\": \"Arthur\", \"surname\": \"Morgan\",\"email\": \"arthurmorgan@hotmail.com\"}" 
+
+![Screenshot_29](https://user-images.githubusercontent.com/60350565/111702771-d7d74200-884d-11eb-98b9-e1779059ff3f.png)
+
+
+E) Delete The User (Write the specific id to inside curly brackets) :
 curl -X DELETE https://spring-boot-herokuu.herokuapp.com/User/{id}   
+
+![Screenshot_30](https://user-images.githubusercontent.com/60350565/111702802-df96e680-884d-11eb-8c08-6d827b4df53f.png)
+
 
 
 2- For Linux/Mac Users :
 
-Adding New User : curl -X POST https://spring-boot-herokuu.herokuapp.com/User -H 'Content-type:application/json' -d '{"name\": "John", "surname": "Cameron","email": "johncameron@gmail.com"}'  
+A) Getting All Of The Users: curl -X POST localhost:8080/User
 
-Changing The Parameters Of User (Write the specific id to inside curly brackets) : curl -X PUT localhost:8080/User/{id} -H 'Content-type:application/json' -d '{"name": "Arthur", "surname": "Morgan","email": "arthurmorgan@hotmail.com"}' 
 
-Delete The User (Write the specific id to inside curly brackets) :
-curl -X DELETE https://spring-boot-herokuu.herokuapp.com/User/{id}   
+B) Getting Specific Single User (Write the specific id to inside curly brackets) : curl -X POST localhost:8080/User/{id}
+
+
+C) Adding New User : curl -X POST localhost:8080/User -H 'Content-type:application/json' -d '{"name\": "John", "surname": "Cameron","email": "johncameron@gmail.com"}'  
+
+
+D) Changing The Parameters Of User (Write the specific id to inside curly brackets) : curl -X PUT localhost:8080/User/{id} -H 'Content-type:application/json' -d '{"name": "Arthur", "surname": "Morgan","email": "arthurmorgan@hotmail.com"}' 
+
+E) Delete The User (Write the specific id to inside curly brackets) :
+curl -X DELETE localhost:8080/User/{id}  
+
+
