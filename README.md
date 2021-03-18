@@ -25,7 +25,7 @@ If you want to try it out with heroku it is the easiest way ! just go to https:/
 ----COMMANDS----
 
 Because of having different types of terminals on different operating systems, syntax might be different time to time...
-If you want to try it out locally you can just replace http link with http://localhost:8080/User .
+If you want to try it out locally you can just replace http link with localhost:8080/User .
 
 1- For Windows Users :
 
