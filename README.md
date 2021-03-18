@@ -25,7 +25,9 @@ If you want to try it out with heroku it is the easiest way ! just go to https:/
 ----COMMANDS----
 
 Because of having different types of terminals on different operating systems, syntax might be different time to time...
+
 If you want to try it out locally you can just replace http link with localhost:8080/User .
+
 After typing these commands you can go to the website and check the differences !!
 
 1- For Windows Users :
