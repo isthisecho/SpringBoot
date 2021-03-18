@@ -45,7 +45,7 @@ C) Adding New User : curl -X POST https://spring-boot-herokuu.herokuapp.com/User
 ![Screenshot_28](https://user-images.githubusercontent.com/60350565/111702756-d0b03400-884d-11eb-8b8e-8542cd9db258.png)
 
 
-D) Changing The Parameters Of User (Write the specific id to inside curly brackets) : curl -X PUT https://spring-boot-herokuu.herokuapp.com/User/{id} -H "Content-type:application/json" -d "{\"name\": \"Arthur\", \"surname\": \"Morgan\",\"email\": \"arthurmorgan@hotmail.com\"}" 
+D) Changing The Parameters Of User (Write the specific id to inside curly brackets) : curl -X PUT https://spring-boot-herokuu.herokuapp.com/User/{id} -H "Content-type:application/json" -d "{\"name\": \"Arthur\", \"surname\": \\"Morgan\",\"email\": \"arthurmorgan@hotmail.com\"}" 
 
 ![Screenshot_29](https://user-images.githubusercontent.com/60350565/111702771-d7d74200-884d-11eb-98b9-e1779059ff3f.png)
 
