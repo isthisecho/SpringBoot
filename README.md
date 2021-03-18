@@ -1,7 +1,7 @@
 # SpringBoot
 In this Repo we are making CRUD examples with spring boot.
 
-#HOW TO USE IT ?
+# HOW TO USE IT ?
 
 ##1    - WITH USING LOCAL HOST -
 
