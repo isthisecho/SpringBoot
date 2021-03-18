@@ -19,6 +19,7 @@ So our system is on !  ıf u  want  to see the website go to  http://localhost:8
 
 2   - WITH HEROKU -
 
+If you want to try it out with heroku it is the easiest way ! just go to https://spring-boot-herokuu.herokuapp.com/User website and you can check it that it is on .
 
  
 
