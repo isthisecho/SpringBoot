@@ -1,7 +1,7 @@
 # SpringBoot
 In this Repo we are making CRUD examples with spring boot.
 
-How to Use It ?
+-How to Use It ?
 
 First if you are using an IDE you need to choose a import project and choose the file.
 ![Screenshot_26](https://user-images.githubusercontent.com/60350565/111508207-800cde00-875c-11eb-95a3-805997eb8ed6.png)
