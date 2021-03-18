@@ -22,4 +22,25 @@ So our system is on !  ıf u  want  to see the website go to  http://localhost:8
 If you want to try it out with heroku it is the easiest way ! just go to https://spring-boot-herokuu.herokuapp.com/User website and you can check it that it is on .
 
  
+----COMMANDS----
+Because of having different types of terminals on different operating systems, syntax might be different time to time...
+If you want to try it out locally you can just replace http link with http://localhost:8080/User .
 
+1- For Windows Users :
+
+Adding New User : curl -X POST https://spring-boot-herokuu.herokuapp.com/User -H "Content-type:application/json" -d "{\"name\": \"John\", \"surname\": \"Cameron\",\"email\": \"johncameron@gmail.com\"}"  
+
+Changing The Parameters Of User (Write the specific id to inside curly brackets) : curl -X PUT localhost:8080/User/{id} -H "Content-type:application/json" -d "{\"name\": \"Arthur\", \"surname\": \"Morgan\",\"email\": \"arthurmorgan@hotmail.com\"}" 
+
+Delete The User (Write the specific id to inside curly brackets) :
+curl -X DELETE https://spring-boot-herokuu.herokuapp.com/User/{id}   
+
+
+2- For Linux/Mac Users :
+
+Adding New User : curl -X POST https://spring-boot-herokuu.herokuapp.com/User -H 'Content-type:application/json' -d '{"name\": "John", "surname": "Cameron","email": "johncameron@gmail.com"}'  
+
+Changing The Parameters Of User (Write the specific id to inside curly brackets) : curl -X PUT localhost:8080/User/{id} -H 'Content-type:application/json' -d '{"name": "Arthur", "surname": "Morgan","email": "arthurmorgan@hotmail.com"}' 
+
+Delete The User (Write the specific id to inside curly brackets) :
+curl -X DELETE https://spring-boot-herokuu.herokuapp.com/User/{id}   
